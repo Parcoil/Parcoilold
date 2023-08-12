@@ -1,0 +1,80 @@
+body {
+  background: #f3f4f5;
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.navbar {
+  background: rgba(241, 242, 244, 0.8);
+  border-bottom: 1px solid #dfe3e7 ;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.hero-content {
+  background: #f3f4f5;
+}
+
+@media (min-width: 768px) {
+  .hero-content {
+    background: transparent;
+    height: 500px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-content {
+    height: 600px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero-content {
+    height: 800px;
+  }
+}
+
+.card .btn {
+  border-radius: 20px;
+  padding-left: 16px;
+  margin-left: -16px;
+  background: transparent;
+  border-style: none;
+}
+
+.card:hover .card-img {
+  transform: scale(1.10);
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.card .card-img {
+  transition: all ease .3s;
+}
+
+@media (min-width: 768px) {
+  .card-content-half {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+.card:hover .btn {
+  background: var(--bs-blue);
+  color: white;
+}
+
+.pricing-card .btn {
+  padding-left: 0;
+}
+
