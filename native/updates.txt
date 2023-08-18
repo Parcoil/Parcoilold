@@ -1,0 +1,14 @@
+;aiu;
+
+[Update]
+Name = Native
+ProductVersion = 1.0.1.0
+URL = http://www.parcoil.com/downloads/Native.exe
+Size = 94147622
+SHA256 = E0ECC4F2C067893C992E8D1A63D9A86EA5A41D95D94D46E84AA814E7F6AC3125
+MD5 = f193ddf14e7f235ac15987d0514dba7a
+ServerFileName = Native.exe
+Flags = Critical
+RegistryKey = HKUD\Software\The Parcoil Network\Native\Version
+Version = 1.0.1.0
+AutoCloseApplication = [APPDIR]app.exe
