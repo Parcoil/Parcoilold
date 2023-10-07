@@ -1,0 +1,61 @@
+@media (min-width: 768px) {
+  #logoimage {
+    width: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  #logoimage {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .navigationitemsleft {
+    margin-right: 40px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navigationitemsright {
+    margin-left: 40px;
+    font-size: 18px;
+  }
+}
+
+#logoimageonphone {
+  width: 80px;
+  position: absolute;
+}
+
+@media (min-width: 768px) {
+  #logoimageonphone {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  #logoimageonphone {
+    margin-left: 43%;
+  }
+}
+
+@media (min-width: 575px) {
+  #logoimageonphone {
+    margin-left: 45%;
+  }
+}
+
+@media (max-width: 767px) {
+  .navigationitemsleft {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navigationitemsright {
+    margin-top: 10px;
+  }
+}
+
